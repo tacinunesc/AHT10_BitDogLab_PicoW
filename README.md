@@ -1,10 +1,10 @@
-# Sensor de Temperatura e Umidade AHT10 atuando com Pico W (BitDogLab)
+# 🌡 Sensor de Temperatura e Umidade AHT10 atuando com Pico W (BitDogLab)
 ![Linguagem](https://img.shields.io/badge/Linguagem-C-blue.svg)
 ![Plataforma](https://img.shields.io/badge/Plataforma-Raspberry%20Pi%20Pico-purple.svg)
 ![Sensor](https://img.shields.io/badge/Sensor-AHT10-yellow.svg)
 
 
-## 🧠 Sobre o Projeto
+## Sobre o Projeto
 Este código foi desenvolvido para um sistema de monitoramento de Temperatura e Umidade com o Raspberry Pi Pico, utilizando os seguintes componentes:
 
 Sensor AHT10 para medir luminosidade via I2C
@@ -15,7 +15,7 @@ LEDs RGB para indicar níveis temperatura e umidade elevadas ou não
 
 
 ## 🛠️ Estrutura do projeto
-- tempUmidade.c – Programa principal em C que faz leitura luminosidade do local, com base nesta informação utiliza o servo motor girar no especificado no código e essa informação é exibida no porta serial e no visor oled da BitDogLab
+- tempUmidade.c – Programa principal em C que faz leitura da temperatura e umidade do ambiente, com isso esta informação é exibida no porta serial e no visor oled da BitDogLab
 - aht10.c - Onde fica as definições do sensor de temperatura e umidade
 - Pasta inc - Onde esta localizada as informações da oled
 - CMakeLists.txt – Configuração do build usando o Pico SDK
