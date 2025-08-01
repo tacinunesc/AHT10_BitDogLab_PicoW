@@ -7,6 +7,11 @@
 ## Sobre o Projeto
 Este código foi desenvolvido para um sistema de monitoramento de Temperatura e Umidade com o Raspberry Pi Pico, utilizando os seguintes componentes:
 
+<div align="center">
+  <img src="img/led verde.jpg "  alt="Controle" width="30%">
+  <img src="img/led vermelho.jpg "  alt="Controle" width="30%">
+</div>
+
 Sensor AHT10 para medir luminosidade via I2C
 
 Display OLED SSD1306 para exibir informações
