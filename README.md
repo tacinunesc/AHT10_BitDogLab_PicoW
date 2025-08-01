@@ -57,6 +57,6 @@ O programa realiza as seguintes ações:
 
 ## 📦 Dependências
 
-aht10.h para o sensor de luz
+aht10.h para o sensor de temperatura e umidade
 
 ssd1306.h e ssd1306_fonts.h para o display OLED
