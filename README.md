@@ -12,7 +12,7 @@ Este código foi desenvolvido para um sistema de monitoramento de Temperatura e 
   <img src="img/led vermelho.jpg "  alt="Controle" width="30%">
 </div>
 
-Sensor AHT10 para medir luminosidade via I2C
+Sensor AHT10 para medir temperatura e umidade do ambiente via I2C
 
 Display OLED SSD1306 para exibir informações
 
